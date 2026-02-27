@@ -2,7 +2,10 @@
   "manifest_version": 3,
   "name": "TinyURL 단축링크 생성기",
   "version": "1.0",
-  "permissions": ["clipboardWrite"],
+  "permissions": [
+    "clipboardWrite",
+    "activeTab"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
