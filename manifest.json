@@ -1,17 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "TinyURL 단축링크 생성기",
+  "name": "단축링크",
   "version": "1.0",
-  "permissions": [
-    "clipboardWrite",
-    "activeTab"
-  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "logo.svg",
-      "48": "logo.svg",
-      "128": "logo.svg"
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
     }
   }
 }
